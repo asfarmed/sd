@@ -141,13 +141,13 @@ const App = defineComponent({
         const perXmlFile = ref(50);
         const outputXmlUrls = ref([]);
         let currentFile = null;
-        const propToCsvHeader = ref({
-            published: 'Date',
-            updated: 'Updated',
-            title: 'Title',
-            content: 'Content',
-            categories: 'Categories',
-        });
+      const propToCsvHeader = ref({
+    published: 'تاريخ النشر',
+    updated: 'تاريخ النشر',
+    title: 'العنوان',
+    content: 'المحتوى',
+    categories: 'التصنيفات',
+});
         const csvHeaderToProp = computed(() => {
             return Object.fromEntries(
                 Object.entries(propToCsvHeader.value)
