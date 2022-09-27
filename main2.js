@@ -13,7 +13,7 @@ document.getElementById("popnotification").innerHTML = `<div class="demo-float">
 .demo-float h3{color:`+xtextcolorc+`;font-size:17px;font-weight:600;margin:0 0 7px}
 .demo-float p{font-size:13px;color:`+xtextcolorc+`;line-height:1.5em;margin:0}
 .demo-floata{    text-decoration: none; float:left;width:100%;height:28px;background-color:`+xbgbtncolorc+`;font-size:14px;color:#fff;text-align:center;line-height:28px;margin:15px 0 0;border-radius:2px;transition:background .17s ease}
-.demo-floata:hover{text-decoration: underline;background-color:`+xbgbtncolocr+`}
+.demo-floata:hover{text-decoration: underline;background-color:`+xbgbtncolocrc+`}
 .df-hide{position:absolute;top:10px;left:13px;font-size:13px;color:`+xtextcolorc+`;cursor:pointer;transition:color .17s ease}
 .rtl .df-hide{right:unset;left:13px}
 .df-hide:hover{color:#e74c3c}
