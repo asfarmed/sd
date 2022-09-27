@@ -8,7 +8,7 @@ document.getElementById("popnotification").innerHTML = `<div class="demo-float">
   </div> <style>
 
 .demo-float{position:fixed;right:25px;bottom:25px;width:300px;background-color:`+xbgcolorc+`;z-index:99999;padding:15px;border-radius:6px;box-shadow: 0 1px 2px rgba(0,0,0,0.1);text-align: right;color: #fff;}
-.df-logo{float: right;width:70px;height:70px;background:#f9f9f9 url(https://2.bp.blogspot.com/-XRKx5EJ5f3s/Xk1GIGhGjXI/AAAAAAAABdY/we0ugbrGhRo8Z8ENP1SYH0yuNYUJydo5wCK4BGAYYCw/s70-c/logo-square.png);margin: 0 0 0 10px;
+.df-logo{float: right;width:70px;height:70px;background:#f9f9f9 url(https://2.bp.blogspot.com/-XRKx5EJ5f3s/Xk1GIGhGjXI/AAAAAAAABdY/we0ugbrGhRo8Z8ENP1SYH0yuNYUJydo5wCK4BGAYYCw/s70-c/logo-square.png);margin: 0 0 0 10px;}
 .rtl .df-logo{float:right;margin:0 0 0 10px}
 .demo-float h3{color:`+xtextcolorc+`;font-size:17px;font-weight:600;margin:0 0 7px}
 .demo-float p{font-size:13px;color:`+xtextcolorc+`;line-height:1.5em;margin:0}
